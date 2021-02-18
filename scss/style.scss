@@ -1,0 +1,137 @@
+$icon-size: 50px;
+$dark-overlay: rgba(0,0,0,0.7);
+
+.navbar {
+    background: #000;
+    .nav-item {
+    padding-left: 1em;
+    }
+    .nav-link{
+        text-transform: uppercase;
+    }
+}
+
+
+.carousel-item {
+    height: 450px;
+}
+
+.carousel-img-1{
+    background: url('../img/image1.jpeg');
+    background-size: cover;
+}
+.carousel-img-2{
+    background: url('../img/image2.jpeg');
+    background-size: cover;
+}
+.carousel-img-3{
+    background: url('../img/image3.jpeg');
+    background-size: cover;
+}
+
+
+#homeicon {
+   .svg-inline--fa {
+        font-size: $icon-size;
+    }
+    h3 {
+        margin: 10px 0;
+    }
+    p {
+        margin-bottom: 0;
+    }
+}
+
+#getstarted {
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url('../img/bg1.jpeg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+
+
+}
+
+#home-video {
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url('../img/people.jpeg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+
+    .fa-youtube-square {
+        font-size: $icon-size;
+    }
+    h2 {
+        margin-top: 0;
+    }
+}
+
+#gallery {
+    img {
+        min-height: 250px;
+    }
+}
+
+#copyright {
+    background: #000 !important;
+}
+
+//about section
+
+
+#page-header {
+    background: url('../img/image1.jpeg');
+    background-size: cover;
+    height: 200px;
+    background-attachment: fixed;
+}
+
+#about-info {
+    img {
+        width: 350px;
+        height: 350px;
+    }
+}
+
+#icons-boxes {
+    .svg-inline--fa {
+        font-size: $icon-size;
+    }
+    h3 {
+        margin-top: 0;
+    }
+}
+
+#testimonial {
+    
+    .slick-next::before{
+        color: #000;
+    }
+    .slick-prev::before{
+        color: #000;
+    }
+}
+
+#services-header {
+    background: url('../img/image1.jpeg');
+    background-size: cover;
+    height: 200px;
+    background-attachment: fixed;
+}
+
+
+
+
+
+
+@media(max-width: 767px){
+    .nav-item {
+        padding-left: 0em !important;
+        }
+}
+@media(max-width: 480px){
+    .carousel {
+        h2 {
+            font-size: 2.5rem;
+        }
+    }
+}
